@@ -1,4 +1,10 @@
 img{
-    height: 400px;
-    
+    height: 100px;
+    width: 100px;
+padding: auto;
 }
+
+html{
+    background-color: chartreuse;
+}
+
