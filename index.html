@@ -104,11 +104,26 @@
             <a href="https://github.com/Jeffersongalan-k">PERFIL DE github</a>
         </div>
 
-        <label for="email">Enter your globex.com email:</label>
-
-        <input type="email" id="email"
-               pattern=".+@globex\.com" size="30" required>
-        
-
+        <BR><BR></BR></BR>
+        <form action="/my-handling-form-page" method="post">
+            <ul>
+             <li>
+               <label for="name">Nombre:</label>
+               <input type="text" id="name" name="user_name">
+             </li>
+             <li>
+               <label for="mail">Correo electrónico:</label>
+               <input type="email" id="mail" name="user_mail">
+             </li>
+             <li>
+               <label for="msg">Mensaje:</label>
+               <textarea id="msg" name="user_message"></textarea>
+             </li>
+            </ul>
+           </form>
+           
+    
+    
+    
     </body>
 </html>
